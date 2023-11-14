@@ -41,11 +41,11 @@ cp -rf ./data-bin/iwslt14.tokenized.de-en $PATH_TO_LSTM_TUTORIAL/data-bin/
 # Running training
 From the project root run:
 ```
-bash train_model.sh
+bash ./scripts/train_model.sh
 ```
 
 # Running generation
 From the project root run:
 ```
-bash generate.sh
+bash ./scripts/generate.sh
 ```
